@@ -1,0 +1,57 @@
+[
+  {
+    "id": "w1",
+    "title": "Ninja 5 minutes",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["fun", "cardio"],
+    "steps": [
+      { "label": "Marche rapide", "seconds": 30 },
+      { "label": "Jumping jacks", "seconds": 30 },
+      { "label": "Genoux hauts", "seconds": 30 },
+      { "label": "Squats", "seconds": 30 },
+      { "label": "Marche de l’ours", "seconds": 30 },
+      { "label": "Planche", "seconds": 20 },
+      { "label": "Repos", "seconds": 10 },
+      { "label": "Burpees (version facile)", "seconds": 30 },
+      { "label": "Fentes alternées", "seconds": 30 },
+      { "label": "Respiration", "seconds": 40 }
+    ]
+  },
+  {
+    "id": "w2",
+    "title": "Défi équilibre",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["coordination", "calme"],
+    "steps": [
+      { "label": "Flamand rose jambe droite", "seconds": 30 },
+      { "label": "Flamand rose jambe gauche", "seconds": 30 },
+      { "label": "Marche talons", "seconds": 30 },
+      { "label": "Marche pointes", "seconds": 30 },
+      { "label": "Sauts latéraux petits", "seconds": 30 },
+      { "label": "Toucher genou opposé", "seconds": 40 },
+      { "label": "Planche côté droite (genoux ok)", "seconds": 20 },
+      { "label": "Planche côté gauche", "seconds": 20 },
+      { "label": "Respiration", "seconds": 40 }
+    ]
+  },
+  {
+    "id": "w3",
+    "title": "Super-héros",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["fun", "gainage"],
+    "steps": [
+      { "label": "Course sur place", "seconds": 30 },
+      { "label": "Pompes (genoux ok)", "seconds": 30 },
+      { "label": "Mountain climbers", "seconds": 30 },
+      { "label": "Squats", "seconds": 30 },
+      { "label": "Planche", "seconds": 30 },
+      { "label": "Saut étoile", "seconds": 30 },
+      { "label": "Fentes alternées", "seconds": 30 },
+      { "label": "Gainage dos (superman)", "seconds": 30 },
+      { "label": "Respiration", "seconds": 30 }
+    ]
+  }
+]

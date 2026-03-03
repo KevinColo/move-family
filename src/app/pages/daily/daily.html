@@ -1,0 +1,31 @@
+@if (workout; as w) {
+  <section>
+    <h1>Défi du jour</h1>
+    <p>Streak : {{ streak }} jour(s)</p>
+    <app-timer [steps]="w.steps" (done)="complete()" />
+    <div class="card">
+      <h2>{{ w.title }}</h2>
+      <p>{{ w.minutes }} min • dès {{ w.ageMin }} ans</p>
+
+      <div class="tags">
+        @for (t of w.tags; track t) {
+          <span class="tag">{{ t }}</span>
+        }
+      </div>
+
+      <ol>
+        @for (step of w.steps; track step.label) {
+          <li>
+            {{ step.label }} — {{ step.seconds }} sec
+          </li>
+        }
+      </ol>
+
+      <button class="btn" (click)="complete()" [disabled]="done">
+        {{ done ? 'Défi validé ✅' : 'Terminé' }}
+      </button>
+    </div>
+  </section>
+} @else {
+  <p>Chargement…</p>
+}
