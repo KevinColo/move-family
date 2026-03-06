@@ -1,1 +1,19 @@
-<p>library works!</p>
+<h1>Séances</h1>
+
+@if (workouts$ | async; as workouts) {
+  <ul class="workout-list">
+    @for (workout of workouts; track workout.id) {
+      <li class="workout-card">
+        <h2>{{ workout.title }}</h2>
+        <p class="duration">{{ workout.minutes }} min</p>
+        <ul class="tags">
+          @for (tag of workout.tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </li>
+    }
+  </ul>
+} @else {
+  <p>Chargement…</p>
+}

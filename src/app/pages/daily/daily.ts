@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import type { Observable } from 'rxjs';
 import { WorkoutsService } from '../../services/workouts';
 import { ProgressService } from '../../services/progress';
-import { Workout } from '../../models/workout';
+import type { Workout } from '../../models/workout';
 import { Timer } from '../../components/timer/timer';
 
 @Component({
@@ -12,21 +13,18 @@ import { Timer } from '../../components/timer/timer';
   templateUrl: './daily.html',
   styleUrl: './daily.scss',
 })
-export class Daily implements OnInit {
-  workout?: Workout;
+export class Daily {
+  workout$: Observable<Workout>;
   done = false;
   streak = 0;
 
   constructor(
     private workouts: WorkoutsService,
-    private progress: ProgressService
-  ) {}
-
-  ngOnInit(): void {
+    private progress: ProgressService,
+  ) {
+    this.workout$ = this.workouts.getDaily();
     this.done = this.progress.hasCompletedToday();
     this.streak = this.progress.getStreak();
-
-    this.workouts.getDaily().subscribe((w) => (this.workout = w));
   }
 
   complete(): void {
