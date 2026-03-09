@@ -17,6 +17,10 @@ export class WorkoutsService {
     return this.workouts$;
   }
 
+  getById(id: string): Observable<Workout | undefined> {
+    return this.workouts$.pipe(map((workouts) => workouts.find((w) => w.id === id)));
+  }
+
   getDaily(): Observable<Workout> {
     return this.workouts$.pipe(
       map((workouts) => {

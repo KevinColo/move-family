@@ -1,1 +1,17 @@
-<p>rewards works!</p>
+<h1>Récompenses</h1>
+
+<div class="streak-box">
+  <p class="streak-value">{{ streak }}</p>
+  <p class="streak-label">jour(s) d'affilée</p>
+</div>
+
+<h2>Badges</h2>
+
+<ul class="badge-list">
+  @for (badge of badges; track badge.days) {
+    <li class="badge" [class.unlocked]="badge.unlocked">
+      <span class="badge-icon">{{ badge.unlocked ? '&#11088;' : '&#128274;' }}</span>
+      <span class="badge-label">{{ badge.label }}</span>
+    </li>
+  }
+</ul>

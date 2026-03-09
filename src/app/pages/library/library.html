@@ -4,6 +4,7 @@
   <ul class="workout-list">
     @for (workout of workouts; track workout.id) {
       <li class="workout-card">
+        <a [routerLink]="['/library', workout.id]">
         <h2>{{ workout.title }}</h2>
         <p class="duration">{{ workout.minutes }} min</p>
         <ul class="tags">
@@ -11,6 +12,7 @@
             <li class="tag">{{ tag }}</li>
           }
         </ul>
+        </a>
       </li>
     }
   </ul>

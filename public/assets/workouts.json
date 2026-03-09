@@ -6,16 +6,25 @@
     "ageMin": 5,
     "tags": ["fun", "cardio"],
     "steps": [
-      { "label": "Marche rapide", "seconds": 30 },
-      { "label": "Jumping jacks", "seconds": 30 },
-      { "label": "Genoux hauts", "seconds": 30 },
-      { "label": "Squats", "seconds": 30 },
-      { "label": "Marche de l’ours", "seconds": 30 },
-      { "label": "Planche", "seconds": 20 },
-      { "label": "Repos", "seconds": 10 },
-      { "label": "Burpees (version facile)", "seconds": 30 },
-      { "label": "Fentes alternées", "seconds": 30 },
-      { "label": "Respiration", "seconds": 40 }
+      { "label": "Marche rapide", "seconds": 3, "animationKey": "march_fast" },
+      {
+        "label": "Jumping jacks",
+        "seconds": 3,
+        "animationKey": "jumping_jacks",
+        "animation": {
+          "src": "/animations/jumping-jack.mp4",
+          "creditLabel": "Woman Doing Jumping Jack Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Genoux hauts", "seconds": 3, "animationKey": "high_knees" },
+      { "label": "Squats", "seconds": 3, "animationKey": "squats" },
+      { "label": "Marche de l'ours", "seconds": 3, "animationKey": "bear_crawl" },
+      { "label": "Planche", "seconds": 20, "animationKey": "plank" },
+      { "label": "Repos", "seconds": 10, "animationKey": "rest" },
+      { "label": "Burpees (version facile)", "seconds": 3, "animationKey": "burpees_easy" },
+      { "label": "Fentes alternées", "seconds": 3, "animationKey": "alternating_lunges" },
+      { "label": "Respiration", "seconds": 3, "animationKey": "breathing" }
     ]
   },
   {
@@ -25,15 +34,15 @@
     "ageMin": 5,
     "tags": ["coordination", "calme"],
     "steps": [
-      { "label": "Flamand rose jambe droite", "seconds": 30 },
-      { "label": "Flamand rose jambe gauche", "seconds": 30 },
-      { "label": "Marche talons", "seconds": 30 },
-      { "label": "Marche pointes", "seconds": 30 },
-      { "label": "Sauts latéraux petits", "seconds": 30 },
-      { "label": "Toucher genou opposé", "seconds": 40 },
-      { "label": "Planche côté droite (genoux ok)", "seconds": 20 },
-      { "label": "Planche côté gauche", "seconds": 20 },
-      { "label": "Respiration", "seconds": 40 }
+      { "label": "Flamand rose jambe droite", "seconds": 3, "animationKey": "single_leg_balance_right" },
+      { "label": "Flamand rose jambe gauche", "seconds": 3, "animationKey": "single_leg_balance_left" },
+      { "label": "Marche talons", "seconds": 3, "animationKey": "heel_walk" },
+      { "label": "Marche pointes", "seconds": 3, "animationKey": "toe_walk" },
+      { "label": "Sauts latéraux petits", "seconds": 3, "animationKey": "side_hops_small" },
+      { "label": "Toucher genou opposé", "seconds": 3, "animationKey": "cross_knee_touches" },
+      { "label": "Planche côté droite (genoux ok)", "seconds": 20, "animationKey": "side_plank_right_knees" },
+      { "label": "Planche côté gauche", "seconds": 20, "animationKey": "side_plank_left_knees" },
+      { "label": "Respiration", "seconds": 3, "animationKey": "breathing" }
     ]
   },
   {
@@ -43,15 +52,43 @@
     "ageMin": 5,
     "tags": ["fun", "gainage"],
     "steps": [
-      { "label": "Course sur place", "seconds": 30 },
-      { "label": "Pompes (genoux ok)", "seconds": 30 },
-      { "label": "Mountain climbers", "seconds": 30 },
-      { "label": "Squats", "seconds": 30 },
-      { "label": "Planche", "seconds": 30 },
-      { "label": "Saut étoile", "seconds": 30 },
-      { "label": "Fentes alternées", "seconds": 30 },
-      { "label": "Gainage dos (superman)", "seconds": 30 },
-      { "label": "Respiration", "seconds": 30 }
+      {
+        "label": "Course sur place",
+        "seconds": 3,
+        "animationKey": "run_in_place",
+        "animation": {
+          "src": "/animations/running.mp4",
+          "creditLabel": "Running Exercise",
+          "creditUrl": ""
+        }
+      },
+      {
+        "label": "Pompes (genoux ok)",
+        "seconds": 3,
+        "animationKey": "knee_pushups",
+        "animation": {
+          "src": "/animations/push-up.mp4",
+          "creditLabel": "Push-up Exercise",
+          "creditUrl": ""
+        }
+      },
+      { "label": "Mountain climbers", "seconds": 3, "animationKey": "mountain_climbers" },
+      { "label": "Squats", "seconds": 3, "animationKey": "squats" },
+      { "label": "Planche", "seconds": 3, "animationKey": "plank" },
+      { "label": "Saut étoile", "seconds": 3, "animationKey": "star_jump" },
+      { "label": "Fentes alternées", "seconds": 3, "animationKey": "alternating_lunges" },
+      { "label": "Gainage dos (superman)", "seconds": 3, "animationKey": "superman_hold" },
+      { "label": "Respiration", "seconds": 3, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w4",
+    "title": "test",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["fun", "test"],
+    "steps": [
+      { "label": "Course sur place", "seconds": 3, "animationKey": "run_in_place" }
     ]
   }
 ]

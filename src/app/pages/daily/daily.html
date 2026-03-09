@@ -1,11 +1,17 @@
-@if (workout$ | async; as w) {
+@if (done()) {
+  <section class="done-screen">
+    <h1>Bravo &#127881;</h1>
+    <p class="done-streak">{{ streak() }} jour(s) d'affilée</p>
+    <button class="btn" (click)="backToChallenge()">Voir le défi</button>
+  </section>
+} @else if (workout$ | async; as w) {
   <section>
     <h1>Défi du jour</h1>
-    <p>Streak : {{ streak }} jour(s)</p>
-    <app-timer [steps]="w.steps" (done)="complete()" />
+    <p>Streak : {{ streak() }} jour(s)</p>
+    <app-timer [steps]="w.steps" />
     <div class="card">
       <h2>{{ w.title }}</h2>
-      <p>{{ w.minutes }} min • dès {{ w.ageMin }} ans</p>
+      <p>{{ w.minutes }} min &#8226; dès {{ w.ageMin }} ans</p>
 
       <div class="tags">
         @for (t of w.tags; track t) {
@@ -15,15 +21,9 @@
 
       <ol>
         @for (step of w.steps; track step.label) {
-          <li>
-            {{ step.label }} — {{ step.seconds }} sec
-          </li>
+          <li>{{ step.label }} &#8212; {{ step.seconds }} sec</li>
         }
       </ol>
-
-      <button class="btn" (click)="complete()" [disabled]="done">
-        {{ done ? 'Défi validé ✅' : 'Terminé' }}
-      </button>
     </div>
   </section>
 } @else {
