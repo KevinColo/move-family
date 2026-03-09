@@ -1,0 +1,29 @@
+@if (done()) {
+  <section class="done-screen">
+    <h1>Bravo &#127881;</h1>
+    <p class="done-streak">{{ streak() }} jour(s) d'affilée</p>
+    <a class="btn" routerLink="/library">Retour aux séances</a>
+  </section>
+} @else if (workout$ | async; as w) {
+  <section>
+    <h1>{{ w.title }}</h1>
+    <app-timer [steps]="w.steps" />
+    <div class="card">
+      <p>{{ w.minutes }} min &#8226; dès {{ w.ageMin }} ans</p>
+
+      <div class="tags">
+        @for (t of w.tags; track t) {
+          <span class="tag">{{ t }}</span>
+        }
+      </div>
+
+      <ol>
+        @for (step of w.steps; track step.label) {
+          <li>{{ step.label }} &#8212; {{ step.seconds }} sec</li>
+        }
+      </ol>
+    </div>
+  </section>
+} @else {
+  <p>Chargement…</p>
+}
