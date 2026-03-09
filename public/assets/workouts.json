@@ -6,10 +6,10 @@
     "ageMin": 5,
     "tags": ["fun", "cardio"],
     "steps": [
-      { "label": "Marche rapide", "seconds": 3, "animationKey": "march_fast" },
+      { "label": "Marche rapide", "seconds": 30, "animationKey": "march_fast" },
       {
         "label": "Jumping jacks",
-        "seconds": 3,
+        "seconds": 30,
         "animationKey": "jumping_jacks",
         "animation": {
           "src": "/animations/jumping-jack.mp4",
@@ -17,14 +17,14 @@
           "creditUrl": "https://iconscout.com/lottie-animations/woman"
         }
       },
-      { "label": "Genoux hauts", "seconds": 3, "animationKey": "high_knees" },
-      { "label": "Squats", "seconds": 3, "animationKey": "squats" },
-      { "label": "Marche de l'ours", "seconds": 3, "animationKey": "bear_crawl" },
+      { "label": "Genoux hauts", "seconds": 30, "animationKey": "high_knees" },
+      { "label": "Squats", "seconds": 30, "animationKey": "squats" },
+      { "label": "Marche de l'ours", "seconds": 30, "animationKey": "bear_crawl" },
       { "label": "Planche", "seconds": 20, "animationKey": "plank" },
       { "label": "Repos", "seconds": 10, "animationKey": "rest" },
-      { "label": "Burpees (version facile)", "seconds": 3, "animationKey": "burpees_easy" },
-      { "label": "Fentes alternées", "seconds": 3, "animationKey": "alternating_lunges" },
-      { "label": "Respiration", "seconds": 3, "animationKey": "breathing" }
+      { "label": "Burpees (version facile)", "seconds": 30, "animationKey": "burpees_easy" },
+      { "label": "Fentes alternées", "seconds": 30, "animationKey": "alternating_lunges" },
+      { "label": "Respiration", "seconds": 30, "animationKey": "breathing" }
     ]
   },
   {
@@ -34,15 +34,15 @@
     "ageMin": 5,
     "tags": ["coordination", "calme"],
     "steps": [
-      { "label": "Flamand rose jambe droite", "seconds": 3, "animationKey": "single_leg_balance_right" },
-      { "label": "Flamand rose jambe gauche", "seconds": 3, "animationKey": "single_leg_balance_left" },
-      { "label": "Marche talons", "seconds": 3, "animationKey": "heel_walk" },
-      { "label": "Marche pointes", "seconds": 3, "animationKey": "toe_walk" },
-      { "label": "Sauts latéraux petits", "seconds": 3, "animationKey": "side_hops_small" },
-      { "label": "Toucher genou opposé", "seconds": 3, "animationKey": "cross_knee_touches" },
+      { "label": "Flamand rose jambe droite", "seconds": 30, "animationKey": "single_leg_balance_right" },
+      { "label": "Flamand rose jambe gauche", "seconds": 30, "animationKey": "single_leg_balance_left" },
+      { "label": "Marche talons", "seconds": 30, "animationKey": "heel_walk" },
+      { "label": "Marche pointes", "seconds": 30, "animationKey": "toe_walk" },
+      { "label": "Sauts latéraux petits", "seconds": 30, "animationKey": "side_hops_small" },
+      { "label": "Toucher genou opposé", "seconds": 30, "animationKey": "cross_knee_touches" },
       { "label": "Planche côté droite (genoux ok)", "seconds": 20, "animationKey": "side_plank_right_knees" },
       { "label": "Planche côté gauche", "seconds": 20, "animationKey": "side_plank_left_knees" },
-      { "label": "Respiration", "seconds": 3, "animationKey": "breathing" }
+      { "label": "Respiration", "seconds": 30, "animationKey": "breathing" }
     ]
   },
   {
@@ -54,41 +54,294 @@
     "steps": [
       {
         "label": "Course sur place",
-        "seconds": 3,
+        "seconds": 30,
         "animationKey": "run_in_place",
         "animation": {
           "src": "/animations/running.mp4",
-          "creditLabel": "Running Exercise",
-          "creditUrl": ""
+          "creditLabel": "Woman Doing Running Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
         }
       },
       {
         "label": "Pompes (genoux ok)",
-        "seconds": 3,
+        "seconds": 30,
         "animationKey": "knee_pushups",
         "animation": {
           "src": "/animations/push-up.mp4",
-          "creditLabel": "Push-up Exercise",
-          "creditUrl": ""
+          "creditLabel": "Woman Doing push-ups Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
         }
       },
-      { "label": "Mountain climbers", "seconds": 3, "animationKey": "mountain_climbers" },
-      { "label": "Squats", "seconds": 3, "animationKey": "squats" },
-      { "label": "Planche", "seconds": 3, "animationKey": "plank" },
-      { "label": "Saut étoile", "seconds": 3, "animationKey": "star_jump" },
-      { "label": "Fentes alternées", "seconds": 3, "animationKey": "alternating_lunges" },
-      { "label": "Gainage dos (superman)", "seconds": 3, "animationKey": "superman_hold" },
-      { "label": "Respiration", "seconds": 3, "animationKey": "breathing" }
+      { "label": "Mountain climbers", "seconds": 30, "animationKey": "mountain_climbers" },
+      { "label": "Squats", "seconds": 30, "animationKey": "squats" },
+      { "label": "Planche", "seconds": 30, "animationKey": "plank" },
+      { "label": "Saut étoile", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Fentes alternées", "seconds": 30, "animationKey": "alternating_lunges" },
+      { "label": "Gainage dos (superman)", "seconds": 20, "animationKey": "superman_hold" },
+      { "label": "Respiration", "seconds": 30, "animationKey": "breathing" }
     ]
   },
   {
     "id": "w4",
-    "title": "test",
+    "title": "Aventure dans la jungle",
     "minutes": 5,
     "ageMin": 5,
-    "tags": ["fun", "test"],
+    "tags": ["fun", "aventure"],
     "steps": [
-      { "label": "Course sur place", "seconds": 3, "animationKey": "run_in_place" }
+      { "label": "Marche du singe (genoux hauts)", "seconds": 30, "animationKey": "high_knees" },
+      { "label": "Marche de l'ours dans la boue", "seconds": 30, "animationKey": "bear_crawl" },
+      { "label": "Sauts de grenouille (squats)", "seconds": 30, "animationKey": "squats" },
+      { "label": "Grimpe la liane (saut étoile)", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Repos à l'ombre", "seconds": 10, "animationKey": "rest" },
+      { "label": "Rampe sous les branches (planche)", "seconds": 20, "animationKey": "plank" },
+      { "label": "Course dans la clairière", "seconds": 30, "animationKey": "run_in_place",
+        "animation": {
+          "src": "/animations/running.mp4",
+          "creditLabel": "Woman Doing Running Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Le serpent (gainage dos)", "seconds": 20, "animationKey": "superman_hold" },
+      { "label": "Respiration de la forêt", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w5",
+    "title": "Pirate en mer",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["fun", "cardio"],
+    "steps": [
+      { "label": "Hisser les voiles (saut étoile)", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Ramer vite (mountain climbers)", "seconds": 30, "animationKey": "mountain_climbers" },
+      { "label": "Équilibre sur le pont (jambe droite)", "seconds": 25, "animationKey": "single_leg_balance_right" },
+      { "label": "Équilibre sur le pont (jambe gauche)", "seconds": 25, "animationKey": "single_leg_balance_left" },
+      { "label": "Sauter par-dessus les vagues (squats)", "seconds": 30, "animationKey": "squats" },
+      { "label": "Repos dans la cale", "seconds": 10, "animationKey": "rest" },
+      { "label": "Frotter le pont (fentes)", "seconds": 30, "animationKey": "alternating_lunges" },
+      { "label": "Nager jusqu'au trésor (marche rapide)", "seconds": 30, "animationKey": "march_fast" },
+      { "label": "Respiration du vent marin", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w6",
+    "title": "Feu et glace",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["cardio", "gainage"],
+    "steps": [
+      {
+        "label": "Feu ! Jumping jacks rapides",
+        "seconds": 30,
+        "animationKey": "jumping_jacks",
+        "animation": {
+          "src": "/animations/jumping-jack.mp4",
+          "creditLabel": "Woman Doing Jumping Jack Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Glace ! Planche immobile", "seconds": 20, "animationKey": "plank" },
+      { "label": "Feu ! Genoux hauts", "seconds": 30, "animationKey": "high_knees" },
+      { "label": "Glace ! Flamand rose droite", "seconds": 20, "animationKey": "single_leg_balance_right" },
+      { "label": "Feu ! Mountain climbers", "seconds": 30, "animationKey": "mountain_climbers" },
+      { "label": "Glace ! Flamand rose gauche", "seconds": 20, "animationKey": "single_leg_balance_left" },
+      { "label": "Feu ! Burpees faciles", "seconds": 30, "animationKey": "burpees_easy" },
+      { "label": "Glace ! Gainage dos", "seconds": 20, "animationKey": "superman_hold" },
+      { "label": "Respiration", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w7",
+    "title": "Danse des animaux",
+    "minutes": 5,
+    "ageMin": 4,
+    "tags": ["fun", "coordination"],
+    "steps": [
+      { "label": "Marche du canard (squats)", "seconds": 30, "animationKey": "squats" },
+      { "label": "Bond du kangourou (saut étoile)", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Pas du flamand (jambe droite)", "seconds": 25, "animationKey": "single_leg_balance_right" },
+      { "label": "Pas du flamand (jambe gauche)", "seconds": 25, "animationKey": "single_leg_balance_left" },
+      { "label": "Galop du cheval (genoux hauts)", "seconds": 30, "animationKey": "high_knees" },
+      { "label": "Marche du crabe (sauts latéraux)", "seconds": 30, "animationKey": "side_hops_small" },
+      { "label": "L'ours qui dort (repos)", "seconds": 10, "animationKey": "rest" },
+      { "label": "Le cobra (gainage dos)", "seconds": 20, "animationKey": "superman_hold" },
+      { "label": "Respiration du papillon", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w8",
+    "title": "Mission espace",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["fun", "cardio"],
+    "steps": [
+      { "label": "Décollage de la fusée (saut étoile)", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Marche sur la Lune (marche pointes)", "seconds": 30, "animationKey": "toe_walk" },
+      { "label": "Esquive les astéroïdes (sauts latéraux)", "seconds": 30, "animationKey": "side_hops_small" },
+      {
+        "label": "Course en apesanteur",
+        "seconds": 30,
+        "animationKey": "run_in_place",
+        "animation": {
+          "src": "/animations/running.mp4",
+          "creditLabel": "Woman Doing Running Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Réparation du vaisseau (planche)", "seconds": 20, "animationKey": "plank" },
+      { "label": "Repos en orbite", "seconds": 10, "animationKey": "rest" },
+      { "label": "Toucher les étoiles (fentes)", "seconds": 30, "animationKey": "alternating_lunges" },
+      { "label": "Atterrissage (squats)", "seconds": 30, "animationKey": "squats" },
+      { "label": "Respiration cosmique", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w9",
+    "title": "Chevalier du royaume",
+    "minutes": 5,
+    "ageMin": 5,
+    "tags": ["fun", "gainage"],
+    "steps": [
+      { "label": "Marche du chevalier (marche rapide)", "seconds": 30, "animationKey": "march_fast" },
+      { "label": "Lever le bouclier (squats)", "seconds": 30, "animationKey": "squats" },
+      {
+        "label": "Charger l'ennemi (pompes)",
+        "seconds": 30,
+        "animationKey": "knee_pushups",
+        "animation": {
+          "src": "/animations/push-up.mp4",
+          "creditLabel": "Woman Doing push-ups Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Traverser les douves (fentes)", "seconds": 30, "animationKey": "alternating_lunges" },
+      { "label": "Défendre le château (planche)", "seconds": 25, "animationKey": "plank" },
+      { "label": "Repos dans la tour", "seconds": 10, "animationKey": "rest" },
+      { "label": "Escalade des remparts (mountain climbers)", "seconds": 30, "animationKey": "mountain_climbers" },
+      { "label": "Victoire ! (saut étoile)", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Respiration du roi", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w10",
+    "title": "Réveil matinal",
+    "minutes": 5,
+    "ageMin": 4,
+    "tags": ["calme", "souplesse"],
+    "steps": [
+      { "label": "Marche tranquille", "seconds": 30, "animationKey": "march_fast" },
+      { "label": "Monter sur la pointe des pieds", "seconds": 30, "animationKey": "toe_walk" },
+      { "label": "Marche talons", "seconds": 30, "animationKey": "heel_walk" },
+      { "label": "Toucher genou opposé", "seconds": 30, "animationKey": "cross_knee_touches" },
+      { "label": "Squats doux", "seconds": 30, "animationKey": "squats" },
+      { "label": "Gainage dos (superman)", "seconds": 20, "animationKey": "superman_hold" },
+      { "label": "Planche douce", "seconds": 15, "animationKey": "plank" },
+      { "label": "Équilibre jambe droite", "seconds": 20, "animationKey": "single_leg_balance_right" },
+      { "label": "Équilibre jambe gauche", "seconds": 20, "animationKey": "single_leg_balance_left" },
+      { "label": "Grande respiration", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w11",
+    "title": "Explorateur extrême",
+    "minutes": 10,
+    "ageMin": 6,
+    "tags": ["cardio", "endurance"],
+    "steps": [
+      { "label": "Échauffement (marche rapide)", "seconds": 30, "animationKey": "march_fast" },
+      {
+        "label": "Sprint dans la savane",
+        "seconds": 40,
+        "animationKey": "run_in_place",
+        "animation": {
+          "src": "/animations/running.mp4",
+          "creditLabel": "Woman Doing Running Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Sauts de rocher (squats)", "seconds": 40, "animationKey": "squats" },
+      { "label": "Repos", "seconds": 15, "animationKey": "rest" },
+      {
+        "label": "Jumping jacks",
+        "seconds": 40,
+        "animationKey": "jumping_jacks",
+        "animation": {
+          "src": "/animations/jumping-jack.mp4",
+          "creditLabel": "Woman Doing Jumping Jack Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Mountain climbers", "seconds": 40, "animationKey": "mountain_climbers" },
+      { "label": "Repos", "seconds": 15, "animationKey": "rest" },
+      { "label": "Burpees faciles", "seconds": 40, "animationKey": "burpees_easy" },
+      { "label": "Fentes alternées", "seconds": 40, "animationKey": "alternating_lunges" },
+      { "label": "Planche", "seconds": 30, "animationKey": "plank" },
+      { "label": "Repos", "seconds": 15, "animationKey": "rest" },
+      { "label": "Genoux hauts", "seconds": 40, "animationKey": "high_knees" },
+      { "label": "Saut étoile", "seconds": 40, "animationKey": "star_jump" },
+      { "label": "Gainage dos (superman)", "seconds": 25, "animationKey": "superman_hold" },
+      { "label": "Respiration", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w12",
+    "title": "Guerrier ninja avancé",
+    "minutes": 10,
+    "ageMin": 7,
+    "tags": ["cardio", "gainage"],
+    "steps": [
+      { "label": "Marche rapide du ninja", "seconds": 30, "animationKey": "march_fast" },
+      { "label": "Genoux hauts rapides", "seconds": 40, "animationKey": "high_knees" },
+      {
+        "label": "Pompes du ninja",
+        "seconds": 30,
+        "animationKey": "knee_pushups",
+        "animation": {
+          "src": "/animations/push-up.mp4",
+          "creditLabel": "Woman Doing push-ups Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "Repos", "seconds": 15, "animationKey": "rest" },
+      { "label": "Mountain climbers", "seconds": 40, "animationKey": "mountain_climbers" },
+      { "label": "Planche du guerrier", "seconds": 30, "animationKey": "plank" },
+      { "label": "Sauts latéraux", "seconds": 30, "animationKey": "side_hops_small" },
+      { "label": "Repos", "seconds": 15, "animationKey": "rest" },
+      { "label": "Burpees ninja", "seconds": 40, "animationKey": "burpees_easy" },
+      { "label": "Fentes alternées", "seconds": 40, "animationKey": "alternating_lunges" },
+      { "label": "Planche côté droite", "seconds": 25, "animationKey": "side_plank_right_knees" },
+      { "label": "Planche côté gauche", "seconds": 25, "animationKey": "side_plank_left_knees" },
+      { "label": "Squats du samouraï", "seconds": 40, "animationKey": "squats" },
+      { "label": "Gainage dos (superman)", "seconds": 25, "animationKey": "superman_hold" },
+      { "label": "Respiration du maître", "seconds": 30, "animationKey": "breathing" }
+    ]
+  },
+  {
+    "id": "w13",
+    "title": "Cirque rigolo",
+    "minutes": 5,
+    "ageMin": 4,
+    "tags": ["fun", "coordination"],
+    "steps": [
+      { "label": "Marche du clown (marche talons)", "seconds": 30, "animationKey": "heel_walk" },
+      { "label": "Jonglage (toucher genou opposé)", "seconds": 30, "animationKey": "cross_knee_touches" },
+      { "label": "Acrobatie (saut étoile)", "seconds": 30, "animationKey": "star_jump" },
+      { "label": "Funambule (marche pointes)", "seconds": 30, "animationKey": "toe_walk" },
+      { "label": "Le trapéziste (planche)", "seconds": 20, "animationKey": "plank" },
+      { "label": "Pause pop-corn", "seconds": 10, "animationKey": "rest" },
+      {
+        "label": "Sauts du trampoline",
+        "seconds": 30,
+        "animationKey": "jumping_jacks",
+        "animation": {
+          "src": "/animations/jumping-jack.mp4",
+          "creditLabel": "Woman Doing Jumping Jack Exercise by Faiyaz Algur",
+          "creditUrl": "https://iconscout.com/lottie-animations/woman"
+        }
+      },
+      { "label": "L'équilibriste (jambe droite)", "seconds": 20, "animationKey": "single_leg_balance_right" },
+      { "label": "L'équilibriste (jambe gauche)", "seconds": 20, "animationKey": "single_leg_balance_left" },
+      { "label": "Révérence finale", "seconds": 30, "animationKey": "breathing" }
     ]
   }
 ]
