@@ -5,10 +5,12 @@
   <p class="streak-label">jour(s) d'affilée</p>
 </div>
 
+<p class="total-days">{{ totalDays }} séance(s) au total</p>
+
 <h2>Badges</h2>
 
 <ul class="badge-list">
-  @for (badge of badges; track badge.days) {
+  @for (badge of badges; track badge.id) {
     <li class="badge" [class.unlocked]="badge.unlocked">
       <span class="badge-icon">{{ badge.unlocked ? '&#11088;' : '&#128274;' }}</span>
       <span class="badge-label">{{ badge.label }}</span>

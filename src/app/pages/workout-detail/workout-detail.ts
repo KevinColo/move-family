@@ -27,7 +27,7 @@ export class WorkoutDetail {
     private progress: ProgressService,
   ) {
     this.workout$ = this.route.params.pipe(
-      switchMap((params) => this.workouts.getById(params['id'] as string)),
+      switchMap((params) => this.workouts.getById(String(params['id'] ?? ''))),
     );
     this.streak.set(this.progress.getStreak());
 

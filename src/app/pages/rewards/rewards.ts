@@ -1,11 +1,5 @@
 import { Component } from '@angular/core';
-import { ProgressService } from '../../services/progress';
-
-interface Badge {
-  label: string;
-  days: number;
-  unlocked: boolean;
-}
+import { type Badge, ProgressService } from '../../services/progress';
 
 @Component({
   selector: 'app-rewards',
@@ -15,14 +9,12 @@ interface Badge {
 })
 export class Rewards {
   streak: number;
+  totalDays: number;
   badges: Badge[];
 
   constructor(private progress: ProgressService) {
     this.streak = this.progress.getStreak();
-    this.badges = [
-      { label: '3 jours', days: 3, unlocked: this.streak >= 3 },
-      { label: '7 jours', days: 7, unlocked: this.streak >= 7 },
-      { label: '14 jours', days: 14, unlocked: this.streak >= 14 },
-    ];
+    this.totalDays = this.progress.getCompletedDays().length;
+    this.badges = this.progress.getBadges();
   }
 }

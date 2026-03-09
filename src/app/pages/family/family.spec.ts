@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { provideZonelessChangeDetection } from '@angular/core';
 import { Family } from './family';
 
 describe('Family', () => {
@@ -9,6 +9,7 @@ describe('Family', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [Family],
+      providers: [provideZonelessChangeDetection()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(Family);
